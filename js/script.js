@@ -14,3 +14,7 @@ while(!stop){
     }
 };
 
+for(let i = 0; i < shoppingList.length; i++){
+    resultEl.innerHTML = shoppingList;
+    resultEl.classList.remove('d-none');
+}
